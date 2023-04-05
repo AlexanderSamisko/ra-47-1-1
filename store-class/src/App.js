@@ -1,5 +1,5 @@
 import './App.css';
-import ShopItemClass from "./Components/ShopItemClass"
+import ShopItemFunc from "./Components/ShopItemFunc"
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
           <div className='highlight-overlay'></div>
         </div>
         <div className="window">
-          <ShopItemClass item={item} />
+          <ShopItemFunc item={item} />
         </div>
       </div>
     </div>
