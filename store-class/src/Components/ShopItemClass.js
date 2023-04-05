@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ShopItemClass ({ item }){
+export default function ShopItemFunc ({ item }){
     return <div className="main-content">
     <h2>{item.brand}</h2>
     <h1>{item.title}</h1>
